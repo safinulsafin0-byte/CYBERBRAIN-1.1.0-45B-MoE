@@ -97,7 +97,7 @@ CYBERBRAIN dynamically switches across six fine-tuned phases:
 ### 1. Clone the Repository
 ```bash
 git clone [https://github.com/safinulsafin0-byte/CYBERBRAIN-1.1.0-45B-MoE.git](https://github.com/safinulsafin0-byte/CYBERBRAIN-1.1.0-45B-MoE.git)
-cd CYBERBRAIN-1.1.0-27B-MoE
+cd CYBERBRAIN-1.1.0-45B-MoE
 
 ```
 
