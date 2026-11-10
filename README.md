@@ -1,7 +1,7 @@
 
 
 ```markdown
-# 🧠 CYBERBRAIN-1.1.0-27B-MoE
+# 🧠 CYBERBRAIN-1.1.0-45B-MoE
 > **Unified Offline 6-Expert Dynamic Routing Engine for Autonomous Cybersecurity Intelligence**
 
 [![Model Architecture](https://img.shields.io/badge/Architecture-6--Expert%20Multi--LoRA%20MoE-blue.svg)](#architecture--specifications)
@@ -10,7 +10,7 @@
 [![Environment](https://img.shields.io/badge/Platform-Windows%2011%20%7C%20Linux%20%7C%20CUDA-purple.svg)](#quickstart--setup)
 [![License](https://img.shields.io/badge/License-Apache%202.0-red.svg)](LICENSE)
 
-**CYBERBRAIN-1.1.0-27B-MoE** is a local, offline terminal CLI engine engineered for high-precision autonomous security auditing, protocol analysis, exploit assessment, and vulnerability triage. 
+**CYBERBRAIN-1.1.0-45B-MoE** is a local, offline terminal CLI engine engineered for high-precision autonomous security auditing, protocol analysis, exploit assessment, and vulnerability triage. 
 
 Instead of deploying a monolithic, hardware-prohibitive 40GB+ merged model, CYBERBRAIN leverages a **Dynamic Multi-LoRA Mixture-of-Experts (MoE)** routing topology. Powered by a single 4-bit NF4 quantized `Qwen2.5-Coder-7B-Instruct` backbone, it mounts 6 domain-specialized expert sub-brains simultaneously and switches between them at inference time with microsecond latency.
 
@@ -52,7 +52,7 @@ The engine separates domain knowledge into modular LoRA adapters while keeping a
 
 | Parameter | Specification |
 | :--- | :--- |
-| **Total Effective Capacity** | ~27B Domain Parameter Representation (Across 6 Trained Adapters) |
+| **Total Effective Capacity** | ~45B Domain Parameter Representation (Across 6 Trained Adapters) |
 | **Base Core Model** | `Qwen/Qwen2.5-Coder-7B-Instruct` |
 | **Quantization Scheme** | 4-bit NormalFloat4 (NF4) with Double Quantization via `bitsandbytes` |
 | **Execution Framework** | PyTorch + Hugging Face Transformers + PEFT |
@@ -96,7 +96,7 @@ CYBERBRAIN dynamically switches across six fine-tuned phases:
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/safinulsafin0-byte/CYBERBRAIN-1.1.0-27B-MoE.git](https://github.com/safinulsafin0-byte/CYBERBRAIN-1.1.0-27B-MoE.git)
+git clone [https://github.com/safinulsafin0-byte/CYBERBRAIN-1.1.0-45B-MoE.git](https://github.com/safinulsafin0-byte/CYBERBRAIN-1.1.0-45B-MoE.git)
 cd CYBERBRAIN-1.1.0-27B-MoE
 
 ```
