@@ -168,16 +168,3 @@ CYBERBRAIN > Audit this C dissector: len = tvb_get_ntohl(tvb, 0); tvb_memcpy(tvb
 CYBERBRAIN is designed strictly for authorized security auditing, academic research, reverse engineering, defensive validation, and boundary verification. Users are solely responsible for ensuring compliance with all local laws and target authorization policies.
 
 ```
-
----
-
-### গিটহাবে যুক্ত করার কমান্ড:
-
-ফাইলটি প্রজেক্টে যুক্ত করে সরাসরি পুশ করার জন্য CMD-তে চালাও:
-
-```cmd
-git add README.md
-git commit -m "docs: add comprehensive architecture overview, specs, and execution guide"
-git push origin main
-
-```
